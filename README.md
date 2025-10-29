@@ -1,22 +1,22 @@
 # AI Models for GRC Engineering: Translating NIST 800-53 Into AWS Evidence
 
-Demonstrating how AI models can translate compliance controls into actionable cloud evidence.
+Demonstrates how AI models translate compliance controls into actionable cloud evidence.
 
 ---
 
 ## About This Project
 
-This project demonstrates how GRC engineering can leverage AI reasoning models and Python automation to bridge the gap between regulatory frameworks and cloud infrastructure.
+This project shows how GRC engineering can use AI reasoning models and Python automation to bridge the gap between compliance frameworks and AWS environments.
 
-By using the **HackIDLE-NIST-Coder** model through **Ollama**, NIST SP 800-53 controls are interpreted and transformed into executable Python code that retrieves real-time compliance evidence from AWS Identity and Access Management (IAM).
+Using the **HackIDLE-NIST-Coder** model in **Ollama**, NIST SP 800-53 controls are interpreted and translated into executable Python code that collects real-time compliance evidence from AWS IAM.
 
-The result is a practical example of control automation specifically aligned with NIST AC-2 (Account Management) that shows how AI can operationalize compliance validation, reduce manual audit workload, and increase transparency between GRC teams and cloud environments.
+The result is a practical example of control automation specifically aligned with **NIST AC-2 (Account Management)** that shows how AI can operationalize compliance validation, reduce manual audit workload, and increase transparency between GRC teams and cloud environments.
 
 ---
 
 ## Tools & Setup
 
-This project uses a combination of AI, Python automation, and AWS services to translate regulatory controls into actionable cloud evidence. Each component is chosen to support GRC engineering principles, control validation, and audit readiness.
+This project uses a combination of AI, Python automation, and AWS services to translate regulatory controls into actionable cloud evidence. Each component supports GRC engineering principles, control validation, and audit readiness.
 
 | Tool / Component                             | Purpose & Value                                                                                         |
 | -------------------------------------------- | ------------------------------------------------------------------------------------------------------- |
@@ -70,7 +70,7 @@ python iam_list_users.py --profile profilename
 ```
 
 Optional details mode:
-```
+```bash
 python iam_list_users.py --profile profilename --details
 ```
 
@@ -110,5 +110,21 @@ This project illustrates how GRC professionals can leverage AI and automation wi
 - Bridge gaps between GRC and engineering: Use automation to improve visibility, transparency, and control effectiveness.
 
 > The combination of AI reasoning models, Python automation, and AWS APIs allows organizations to move from policy interpretation to data-driven compliance validation.
+
+---
+
+## Project Contributor
+
+Angeline Williams - deployed, documented, and aligned this AI-driven compliance automation project with GRC engineering principles.  
+[LinkedIn](https://www.linkedin.com/in/angeline-williams)
+
+---
+
+## Resources
+
+- [Ollama](https://ollama.com/)  
+- [HackIDLE-NIST-Coder Model](https://ollama.com/library/etgohome/hackidle-nist-coder)
+- [NIST SP 800-53 Revision 5 (Official PDF)](https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-53r5.pdf)  
+- [AWS IAM Documentation](https://docs.aws.amazon.com/IAM/latest/UserGuide/introduction.html)
 
 ---
