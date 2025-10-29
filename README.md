@@ -2,6 +2,8 @@
 
 Demonstrating how AI models can translate compliance controls into actionable cloud evidence.
 
+---
+
 ## About This Project
 
 This project demonstrates how GRC engineering can leverage AI reasoning models and Python automation to bridge the gap between regulatory frameworks and cloud infrastructure.
