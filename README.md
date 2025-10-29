@@ -80,6 +80,7 @@ List of IAM Users:
 annie.crane | ID: AIDAV2H00TS0BOJID0002 | ARN: arn:aws:iam::300066700000:user/annie.crane | Created: 2025-09-11 02:21:42
 john.don   | ID: AIDAV2H00TS0BOJID0003 | ARN: arn:aws:iam::300066700000:user/john.don   | Created: 2025-09-10 14:17:09
 ...
+```
 
 This output provides real-time evidence of user accounts, supporting audits and control validation.
 
