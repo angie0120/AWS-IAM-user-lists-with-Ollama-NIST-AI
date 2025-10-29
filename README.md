@@ -74,6 +74,8 @@ Optional details mode:
 python iam_list_users.py --profile profilename --details
 ```
 
+---
+
 ## Example Output
 
 When the script runs successfully, it produces a list of IAM users in your AWS account. Example:
