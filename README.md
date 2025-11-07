@@ -1,6 +1,48 @@
 # AI Models for GRC Engineering: Translating NIST 800-53 Into AWS Evidence
 
-Demonstrates how AI models translate compliance controls into actionable cloud evidence.
+This project demonstrates how AI models can translate compliance controls into actionable cloud evidence.
+
+---
+
+## Ollama & HackIDLE-NIST-Coder Basics
+
+### What is Ollama?
+
+Ollama is a engine that lets you run AI models locally on your own computer. Instead of sending data to a cloud AI service, Ollama loads the model directly onto your machine and runs everything privately and securely. 
+
+When you type a question into Ollama, the AI model responds instantly (similar to ChatGPT), but all processing happens on your device.
+
+### What is HackIDLE-NIST-Coder?
+
+HackIDLE-NIST-Coder is an AI model trained specifically on cybersecurity topics and NIST frameworks.
+
+Its purpose is to:
+- understand NIST 800-53 controls
+- explain what the controls mean
+- translate the controls into technical steps
+- generate Python scripts that collect the evidence needed for those controls
+
+In other words: You give it a NIST control. It helps you write the cloud evidence script for that control.
+
+This makes it useful for GRC practitioners who want to connect policy language to actual AWS evidence without becoming full-time developers.
+
+### How They Work Together in This Project
+
+You use Ollama to run the HackIDLE-NIST-Coder model.
+The model reads a NIST control and generates a Python script designed to gather the AWS evidence required to support that control.
+
+The workflow is simple:
+1. You give the model a control
+Example: “Interpret NIST AC-2 and write Python to list IAM users.”
+
+2. The model generates Python code
+It includes comments, reasoning, and understanding of the control.
+
+3. You run the code
+The script connects to AWS and produces real evidence.
+
+4. You save the evidence
+This becomes part of your audit or validation process.
 
 ---
 
@@ -112,13 +154,6 @@ This project illustrates how GRC professionals can leverage AI and automation wi
 - Bridge gaps between GRC and engineering: Use automation to improve visibility, transparency, and control effectiveness.
 
 > The combination of AI reasoning models, Python automation, and AWS APIs allows organizations to move from policy interpretation to data-driven compliance validation.
-
----
-
-## Project Contributor
-
-Angeline Williams - deployed, documented, and aligned this AI-driven compliance automation project with GRC engineering principles.  
-[LinkedIn](https://www.linkedin.com/in/angeline-williams)
 
 ---
 
