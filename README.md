@@ -166,7 +166,7 @@ This project illustrates how GRC professionals can leverage AI and automation wi
 ## Resources
 
 - [Ollama](https://ollama.com/)  
-- [HackIDLE-NIST-Coder Model](https://ollama.com/library/etgohome/hackidle-nist-coder)
+- [HackIDLE-NIST-Coder Model](https://ollama.com/etgohome/hackidle-nist-coder)
 - [NIST SP 800-53 Revision 5 (Official PDF)](https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-53r5.pdf)  
 - [AWS IAM Documentation](https://docs.aws.amazon.com/IAM/latest/UserGuide/introduction.html)
 
