@@ -8,7 +8,7 @@ This project demonstrates how AI models can translate compliance controls into a
 
 ### What is Ollama?
 
-Ollama is a engine that lets you run AI models locally on your own computer. Instead of sending data to a cloud AI service, Ollama loads the model directly onto your machine and runs everything privately and securely. 
+Ollama is an engine that lets you run AI models locally on your own computer. Instead of sending data to a cloud AI service, Ollama loads the model directly onto your machine and runs everything privately and securely. 
 
 When you type a question into Ollama, the AI model responds instantly (similar to ChatGPT), but all processing happens on your device.
 
