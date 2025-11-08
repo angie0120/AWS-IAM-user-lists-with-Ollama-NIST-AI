@@ -14,7 +14,7 @@ When you type a question into Ollama, the AI model responds instantly (similar t
 
 ### What is HackIDLE-NIST-Coder?
 
-HackIDLE-NIST-Coder is an AI model trained specifically on cybersecurity topics and NIST frameworks.
+[HackIDLE-NIST-Coder Model](https://ollama.com/library/etgohome/hackidle-nist-coder) is an AI model trained specifically on cybersecurity topics and NIST frameworks.
 
 Its purpose is to:
 - understand NIST 800-53 controls
