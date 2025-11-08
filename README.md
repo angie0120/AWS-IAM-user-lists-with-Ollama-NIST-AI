@@ -46,6 +46,12 @@ This becomes part of your audit or validation process.
 
 ---
 
+## Logic Flowchart
+
+![flowchart](./assets/ai-model.png)
+
+---
+
 ## About This Project
 
 This project shows how GRC engineering can use AI reasoning models and Python automation to bridge the gap between compliance frameworks and AWS environments.
