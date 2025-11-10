@@ -2,10 +2,10 @@ import boto3
 import argparse
 
 # Parse command-line arguments
-parser = argparse.ArgumentParser(description="List IAM users in your AWS account.")
-parser.add_argument("--profile", help="AWS profile name to use", default=None)
-parser.add_argument("--details", help="Show additional IAM user details", action="store_true")
-args = parser.parse_args()
+parser = argparse.ArgumentParser(description="List IAM users in your AWS account.")            # Create a parser. This lets the script accept options like --profile or --details.
+parser.add_argument("--profile", help="AWS profile name to use", default=None)                 # One option. This lets the user tell the script which AWS CLI profile to use, ex. --profile profilename.
+parser.add_argument("--details", help="Show additional IAM user details", action="store_true") # Optional switch. If they type --details, the script will show extra information about each user.
+args = parser.parse_args()                                                                     # Read whatever options the user typed and store them in 'args'.
 
 # Create session (use profile if provided)
 if args.profile:
